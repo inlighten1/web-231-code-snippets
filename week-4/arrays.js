@@ -1,24 +1,43 @@
-// one dimensional array
-var numbers = [15, 22, 37, 14, 5];
+/*
+============================================
+; Title:  arrays.js
+; Author: Professor Krasso
+; Date:   25 June 2017
+; Description: Demonstrates how to define and output array values
+;===========================================
+*/
+
+// array of numerical values
+const numbers = [15, 22, 37, 14, 5]
 
 // iterate over the array and output the results
-for (var x = 0; x < numbers.length; x++) {
-    console.log(numbers[x]);
+console.log('-- DISPLAYING NUMBERS ARRAY --')
+let index = 1
+for (let x = 0; x < numbers.length; x++) {
+  console.log(index + '.' + numbers[x])
+  index++
 }
-
 
 // new line
-console.log("\n");
+console.log("\n")
 
-// one dimensional array
-var names = ["Steve", "John", "Chris", "Adam"];
+// array of string values
+const names = ['Steve', 'John', 'Chris', 'Adam', 'Jerry']
 
-// function - one identifier (array of values)
+/**
+ * Params: array
+ * Response: console message
+ * Description: Writes the contents of an array to the console window
+ */
 function getNames(arr) {
-    for (var j = 0; j < arr.length; j++) {
-        console.log(arr[j]);
-    }
+  let index = 1
+
+  for (let j = 0; j < arr.length; j++) {
+    console.log(index + '.' + arr[j])
+    index++
+  }
 }
 
-// output the results
-getNames(names);
+// call the getNames() function and output the contents of the names array
+console.log('-- DISPLAYING STRING ARRAY --')
+getNames(names)

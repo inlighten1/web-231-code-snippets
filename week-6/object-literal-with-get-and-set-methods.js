@@ -1,22 +1,33 @@
-var person = {
-    fullName: "John Doe",
+/*
+============================================
+; Title:  object-literal-with-get-and-set-methods.js
+; Author: Professor Krasso
+; Date:   25 June 2017
+; Description: Demonstrates how to create an object with get/set functions
+;===========================================
+*/
 
-    get name() {
-        return this.fullName;
-    },
+let person = {
+  fullName: "John Doe",
 
-    set name(val) {
-        this.fullName = val;
-    }
-};
+  get name() {
+    return this.fullName;
+  },
 
-console.log("Before");
-console.log(person.name);
+  set name(val) {
+    this.fullName = val;
+  }
+}
 
-person.name = "Jane Doe";
+// output
+console.log(' -- BEFORE -- ')
+console.log(person.name)
 
-console.log(""); // new line
+// reassign the name
+person.name = "Jane Doe"
 
-console.log("After");
+console.log("") // new line
 
-console.log(person.name);
+// output
+console.log(' -- AFTER --')
+console.log(person.name)

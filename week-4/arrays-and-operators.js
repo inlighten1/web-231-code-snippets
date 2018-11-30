@@ -1,9 +1,24 @@
-var nums = [0, 1, 2, 3, 4, 5]; // an array with 6 elements
+/*
+============================================
+; Title:  arrays-and-operators.js
+; Author: Professor Krasso
+; Date:   25 June 2017
+; Description: Demonstrates how to define arrays
+;===========================================
+*/
 
-var someValue = nums[2]; // returns the third element in a 0 indexed array
+let nums = [0, 1, 2, 3, 4, 5]; // an array with 6 elements
 
-console.log(someValue);
+const someValue = nums[2]; // returns the third element in a 0 indexed array
 
-var someArray = new Array();
+console.log('Some value: ' + someValue);
 
-var someOtherArray = new Array(10);
+// create an array and assign it to the someArray variable
+const someArray = new Array();
+
+// create an array and set it's size to 10
+const someOtherArray = new Array(10);
+
+// output
+console.log(someArray)
+console.log(someOtherArray)

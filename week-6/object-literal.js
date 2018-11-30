@@ -1,7 +1,18 @@
-var person = {
-    firstName: "John",
-    lastName: "Doe"
-};
+/*
+============================================
+; Title:  object-literal.js
+; Author: Professor Krasso
+; Date:   25 June 2017
+; Description: Demonstrates how to create an object and output the properties
+;===========================================
+*/
 
-console.log("Full name by property: " + person.firstName + " " + person.lastName);
-console.log("Full name by index: " + person["firstName"] + " " + person["lastName"]);
+// object
+const person = {
+  firstName: "John",
+  lastName: "Doe"
+}
+
+// output
+console.log('Full name by dot notation: ' + person.firstName + ' ' + person.lastName)
+console.log('Full name by bracket notation: ' + person["firstName"] + ' ' + person["lastName"])

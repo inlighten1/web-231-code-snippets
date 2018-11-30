@@ -1,15 +1,25 @@
+/*
+============================================
+; Title:  exception-handling.js
+; Author: Professor Krasso
+; Date:   25 June 2017
+; Description: Demonstrates how to create a try/catch/finally block
+;===========================================
+*/
+
 try {
-    var x = 0;
-    var y = 1;
+  // variables
+  let x = 0
+  let y = 1
+  const sum = y / x
 
-    var sum = y / x;
+  // if statement
+  if (sum === Infinity) throw 'DivideByZeroException'
 
-    if (sum == Infinity) throw "DivideByZeroException";
-
-    console.log(sum);
-
+  // output
+  console.log(sum)
 } catch (err) {
-    console.log("Catch clause: " + err);
+  console.log('Catch clause: ' + err)
 } finally {
-    console.log("Finally clause: End of program ...");
+  console.log('Finally clause reached...')
 }

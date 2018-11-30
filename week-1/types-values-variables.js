@@ -1,25 +1,24 @@
-// Display a list of animals
-var dogName = "Sam";
-var dogColor = "Black";
+/*
+============================================
+; Title:  hello-world.js
+; Author: Professor Krasso
+; Date:   25 June 2017
+; Description: Demonstrates how to assign and output variable values
+;===========================================
+*/
 
-var catName = "Kitty";
-var catColor = "White";
+// variables
+const dogName = 'Sam'
+const dogColor = 'Black'
+const catName = 'Kitty'
+const catColor = 'White'
+const birdName = 'Rocky'
+const birdColor = 'Grey'
 
-var birdName = "Rocky";
-var birdColor = "Grey";
-
-// dog record
-console.log("Animal Name: " + dogName);
-console.log("Animal Color: " + dogColor);
-
-console.log("");
-
-// cat record
-console.log("Animal Name: " + catName);
-console.log("Animal Color: " + catColor);
-
-console.log("");
-
-// bird record
-console.log("Animal Name: " + birdName);
-console.log("Animal Color: " + birdColor);
+// output
+console.log('Animal Name: ' + dogName)
+console.log('Animal Color: ' + dogColor)
+console.log('Animal Name: ' + catName)
+console.log('Animal Color: ' + catColor)
+console.log('Animal Name: ' + birdName)
+console.log('Animal Color: ' + birdColor)
