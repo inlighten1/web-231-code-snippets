@@ -6,7 +6,7 @@
   Assignment 3.4
   Today's Date
 
-  -- Displaying for loop --
+  -- DO THE NUMBERS MATCH GAME --
   6 does not match 4!
   6 does not match 7!
   6 does not match 4!
@@ -15,21 +15,7 @@
   6 does not match 7!
   6 does match 6!
   6 does not match 3!
-
-  -- Displaying while loop --
-  6 does not match 5!
-  6 does not match 10!
-  6 does not match 8!
-  6 does not match 10!
-  6 does not match 10!
-  6 does match 6!
-  6 does not match 4!
-  6 does not match 3!
-  6 does match 6!
-  6 does match 6!
-
 */
-
 
 /**
  * Params: n/a
@@ -38,5 +24,5 @@
  * Disclaimer: Do not remove this function as this is what you will be using to generate a random number
  */
 function randomNumber() {
-  return Math.floor((Math.random() * 10) + 1);
+  return Math.floor((Math.random() * 10) + 1)
 }

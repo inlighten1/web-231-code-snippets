@@ -6,10 +6,10 @@
   Assignment 2.4
   Today's Date
 
-  Hello my name is <concatenated full name>!
+  Hello my name is <your actual name goes here>!
 
-  Today's date is <formatted date> and the current temperature is <formatted number with 1 fixed decimal position>
+  Today's date is <today's date> and the current temperature is 33.5 degrees.
 
-  I am <parsed int> years old and my savings account goal is <parsed float value> dollars.
+  I am <your actual age - parsed int value> years old and my savings account goal is <your actual goal - parsed float value> dollars.
 
 */
