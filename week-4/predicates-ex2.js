@@ -16,8 +16,7 @@ let fruits = ["apple", "orange", "mango"];
  * Description: Returns true/false given the comparision
  */
 function getFruit(el, value) {
-  if (el === value)
-    return value;
+  return el === value
 }
 
 console.log(" --Selected value-- ");
